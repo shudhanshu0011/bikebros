@@ -1,0 +1,310 @@
+.random2 {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container2 {
+  height: 550px;
+  width: 100%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.reviewheader {
+  padding-top: 30px;
+  height: 2em;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.reviewheader span {
+  color: #8467f3;
+}
+.reviewcardarea {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-radius: 20px;
+}
+.usecard {
+  display: flex;
+  position: relative;
+  margin: 10px;
+  width: 17em;
+  height: 17em;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.tilt-box-wrap {
+  width: 17em;
+  height: 17em;
+  position: relative;
+  transition: all 0.6s ease-out;
+  perspective: 1000px;
+  border-radius: 15px;
+  background-color: white;
+}
+.tilt-box-wrap:hover {
+  transition: all 0.2s linear;
+  transform: scale(1.06);
+  border-radius: 15px;
+}
+.tilt-box {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: black;
+  font-size: 90px;
+  font-weight: 700;
+  transition: all 0.2s ease-out;
+  transform: rotateX(0deg) rotateY(0deg);
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+.tilt-box span {
+  width: 70%;
+  color: rgb(73, 73, 73);
+  font-size: 13px;
+  font-weight: 100;
+  transform: translateZ(50px);
+}
+.random1 {
+  color: black;
+  padding-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.t_over {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  z-index: 1;
+}
+
+.t_over:nth-child(1) {
+  left: 0;
+  top: 0;
+}
+.t_over:nth-child(2) {
+  left: 20%;
+  top: 0;
+}
+.t_over:nth-child(3) {
+  left: 40%;
+  top: 0;
+}
+.t_over:nth-child(4) {
+  left: 60%;
+  top: 0%;
+}
+.t_over:nth-child(5) {
+  left: 80%;
+  top: 0%;
+}
+.t_over:nth-child(6) {
+  left: 0;
+  top: 20%;
+}
+.t_over:nth-child(7) {
+  left: 20%;
+  top: 20%;
+}
+.t_over:nth-child(8) {
+  left: 40%;
+  top: 20%;
+}
+.t_over:nth-child(9) {
+  left: 60%;
+  top: 20%;
+}
+.t_over:nth-child(10) {
+  left: 80%;
+  top: 20%;
+}
+.t_over:nth-child(11) {
+  left: 0;
+  top: 40%;
+}
+.t_over:nth-child(12) {
+  left: 20%;
+  top: 40%;
+}
+.t_over:nth-child(13) {
+  left: 40%;
+  top: 40%;
+}
+.t_over:nth-child(14) {
+  left: 60%;
+  top: 40%;
+}
+.t_over:nth-child(15) {
+  left: 80%;
+  top: 40%;
+}
+.t_over:nth-child(16) {
+  left: 0;
+  top: 60%;
+}
+.t_over:nth-child(17) {
+  left: 20%;
+  top: 60%;
+}
+.t_over:nth-child(18) {
+  left: 40%;
+  top: 60%;
+}
+.t_over:nth-child(19) {
+  left: 60%;
+  top: 60%;
+}
+.t_over:nth-child(20) {
+  left: 80%;
+  top: 60%;
+}
+.t_over:nth-child(21) {
+  left: 0;
+  top: 80%;
+}
+.t_over:nth-child(22) {
+  left: 20%;
+  top: 80%;
+}
+.t_over:nth-child(23) {
+  left: 40%;
+  top: 80%;
+}
+.t_over:nth-child(24) {
+  left: 60%;
+  top: 80%;
+}
+.t_over:nth-child(25) {
+  left: 80%;
+  top: 80%;
+}
+.t_over:nth-child(1):hover ~ .tilt-box {
+  transform: rotateX(-10deg) rotateY(10deg);
+}
+.t_over:nth-child(2):hover ~ .tilt-box {
+  transform: rotateX(-10deg) rotateY(5deg);
+}
+.t_over:nth-child(3):hover ~ .tilt-box {
+  transform: rotateX(-10deg) rotateY(0deg);
+}
+.t_over:nth-child(4):hover ~ .tilt-box {
+  transform: rotateX(-10deg) rotateY(-5deg);
+}
+.t_over:nth-child(5):hover ~ .tilt-box {
+  transform: rotateX(-10deg) rotateY(-10deg);
+}
+.t_over:nth-child(6):hover ~ .tilt-box {
+  transform: rotateX(-5deg) rotateY(10deg);
+}
+.t_over:nth-child(7):hover ~ .tilt-box {
+  transform: rotateX(-5deg) rotateY(5deg);
+}
+.t_over:nth-child(8):hover ~ .tilt-box {
+  transform: rotateX(-5deg) rotateY(0deg);
+}
+.t_over:nth-child(9):hover ~ .tilt-box {
+  transform: rotateX(-5deg) rotateY(-5deg);
+}
+.t_over:nth-child(10):hover ~ .tilt-box {
+  transform: rotateX(-5deg) rotateY(-10deg);
+}
+.t_over:nth-child(11):hover ~ .tilt-box {
+  transform: rotateX(0deg) rotateY(10deg);
+}
+.t_over:nth-child(12):hover ~ .tilt-box {
+  transform: rotateX(0deg) rotateY(5deg);
+}
+.t_over:nth-child(13):hover ~ .tilt-box {
+  transform: rotateX(0deg) rotateY(0deg);
+}
+.t_over:nth-child(14):hover ~ .tilt-box {
+  transform: rotateX(0deg) rotateY(-5deg);
+}
+.t_over:nth-child(15):hover ~ .tilt-box {
+  transform: rotateX(0deg) rotateY(-10deg);
+}
+.t_over:nth-child(16):hover ~ .tilt-box {
+  transform: rotateX(5deg) rotateY(10deg);
+}
+.t_over:nth-child(17):hover ~ .tilt-box {
+  transform: rotateX(5deg) rotateY(5deg);
+}
+.t_over:nth-child(18):hover ~ .tilt-box {
+  transform: rotateX(5deg) rotateY(0deg);
+}
+.t_over:nth-child(19):hover ~ .tilt-box {
+  transform: rotateX(5deg) rotateY(-5deg);
+}
+.t_over:nth-child(20):hover ~ .tilt-box {
+  transform: rotateX(5deg) rotateY(-10deg);
+}
+.t_over:nth-child(21):hover ~ .tilt-box {
+  transform: rotateX(10deg) rotateY(10deg);
+}
+.t_over:nth-child(22):hover ~ .tilt-box {
+  transform: rotateX(10deg) rotateY(5deg);
+}
+.t_over:nth-child(23):hover ~ .tilt-box {
+  transform: rotateX(10deg) rotateY(0deg);
+}
+.t_over:nth-child(24):hover ~ .tilt-box {
+  transform: rotateX(10deg) rotateY(-5deg);
+}
+.t_over:nth-child(25):hover ~ .tilt-box {
+  transform: rotateX(10deg) rotateY(-10deg);
+}
+
+@media (max-width: 750px) {
+  .container2 {
+    margin-top: 150vh;
+  }
+  .reviewcardarea {
+    margin-left: 7%;
+    padding-top: 40px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 20px;
+    position: relative;
+  }
+  .usecard {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 38vh;
+    height: 38vh;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+  .tilt-box-wrap {
+    width: 38vh;
+    height: 38vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.6s ease-out;
+    perspective: 1000px;
+    border-radius: 15px;
+    background-color: white;
+  }
+}

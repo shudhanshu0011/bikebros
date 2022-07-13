@@ -1,0 +1,158 @@
+.productimg {
+  background-color: aqua;
+}
+.container12 {
+  margin-top: 85px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchupdate {
+  height: 220px;
+  background-color: #ffffff;
+  display: flex;
+}
+.iinfo {
+  flex: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iiinfo {
+  padding-top: 15px;
+  width: 80%;
+  height: 90%;
+  display: block;
+}
+.iiinfo span {
+  font-size: 30px;
+  font-weight: bold;
+}
+.iiinfo div {
+  font-size: 15px;
+  font-weight: lighter;
+  color: black;
+  opacity: 50%;
+  margin-top: 15px;
+}
+
+.starico {
+  display: flex;
+  width: 100%;
+}
+.starico img {
+  flex: 5%;
+  width: 5%;
+  margin-top: 10px;
+}
+.starico div {
+  flex: 95%;
+  margin-left: 10px;
+}
+.updatesec {
+  flex: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.updatecard {
+  width: 95%;
+  border-radius: 20px;
+  height: 80%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  display: block;
+}
+.updatecard1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.updateinput {
+  flex: 33.33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.updateinput1 {
+  height: 60%;
+  width: 60%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.filterAndResult {
+  display: flex;
+  padding-top: 20px;
+  background-color: whitesmoke;
+}
+.filterarea1 {
+  height: 100%;
+  width: 100%;
+  flex: 25%;
+  position: relative;
+}
+.filterarea {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filtercard {
+  height: 53%;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  background-color: #ffffff;
+}
+.searchresultarea {
+  flex: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding-bottom: 30px;
+}
+.searchresultarea1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.filterheader {
+  padding: 30px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.fltrmodel {
+  height: 280px;
+}
+.fltrprice {
+  height: 280px;
+}
+.fltrprices {
+  display: block;
+}
+.fltrprices div {
+  padding: 10px;
+  margin-left: 20px;
+}
+.fltrprices span {
+  margin-left: 20px;
+}
+.fltrreviews {
+  height: 280px;
+}
+.fltrhdr {
+  padding: 30px;
+  font-weight: 600;
+}

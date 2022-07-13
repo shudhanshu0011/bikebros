@@ -1,0 +1,329 @@
+.container {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: 50%;
+}
+.search-box {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.main-search-box {
+  background-color: white;
+  height: 80%;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+.searchhbtn {
+  flex: 40%;
+  height: 9vh;
+  margin-right: 5%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.searchtext {
+  position: relative;
+  margin-bottom: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+  color: black;
+}
+.searchtext span {
+  color: #8467f3;
+}
+.howuse {
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+.howusetext {
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: black;
+}
+.cardarea {
+  display: block;
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 20px; */
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 80%;
+  /* background-color: white; */
+  position: relative;
+}
+.cardss {
+  width: 97.5%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+.cardss1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 50%;
+}
+.cardss2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 50%;
+}
+.usecard1 {
+  flex: 45%;
+  height: 85%;
+  display: block;
+  z-index: 1;
+  margin-left: 25px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.usecard2 {
+  flex: 45%;
+  height: 85%;
+  display: block;
+  z-index: 1;
+  margin-left: 25px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 20px;
+}
+.usecard3 {
+  flex: 45%;
+  height: 85%;
+  display: block;
+  z-index: 1;
+  margin-left: 25px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 20px;
+}
+.usecard4 {
+  flex: 45%;
+  height: 85%;
+  display: block;
+  z-index: 1;
+  margin-left: 25px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 20px;
+  z-index: 0;
+}
+.usecard1 img {
+  width: 10vh;
+}
+.usecard2 img {
+  width: 8vh;
+}
+.usecard3 img {
+  width: 7vh;
+}
+.usecard4 img {
+  width: 7vh;
+}
+.firsttext {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+.secondtext {
+  color: black;
+  padding-top: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+.bikeimg {
+  display: flex;
+  height: 8em;
+  justify-content: center;
+  align-items: center;
+}
+.bikeimg img{
+  height: 6em;
+  width: 6em;
+}
+@media (max-width: 750px) {
+  .container {
+    display: block;
+    height: 90vh;
+    padding-top: 90px;
+    padding-left: 20px;
+  }
+  .main-search-box {
+    background-color: white;
+    width: 100%;
+    height: 55vh;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+  }
+  .search-box {
+    width: 90%;
+    height: 7vh;
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: white;
+  }
+  .searchhbtn {
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchtext {
+    padding-top: 5px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .howuse {
+    padding-top: 40px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+  }
+  .howusetext {
+    height: 12vh;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  .cardarea {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .usecard1 {
+    display: block;
+    z-index: 1;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    background-color: white;
+    width: 30vh;
+    height: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+      rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+      rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    align-items: center;
+    justify-content: center;
+  }
+  .usecard2 {
+    display: block;
+    z-index: 1;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    background-color: white;
+    width: 30vh;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+      rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+      rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  }
+  .usecard3 {
+    display: block;
+    z-index: 1;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    background-color: white;
+    width: 30vh;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+      rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+      rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  }
+  .usecard4 {
+    display: block;
+    z-index: 1;
+    margin-left: 20%;
+    border-radius: 15px;
+    background-color: white;
+    width: 30vh;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+      rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+      rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  }
+  .usecard1 img {
+    width: 10vh;
+  }
+  .usecard2 img {
+    width: 8vh;
+  }
+  .usecard3 img {
+    width: 7vh;
+  }
+  .usecard4 img {
+    width: 7vh;
+  }
+  .firsttext {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+  }
+  .secondtext {
+    color: black;
+    padding-top: 10px;
+    font-size: 11px;
+    text-align: center;
+  }
+  .bikeimg {
+    display: flex;
+    height: 18vh;
+    justify-content: center;
+    align-items: center;
+  }
+}

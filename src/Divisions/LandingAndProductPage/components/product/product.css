@@ -1,0 +1,65 @@
+.productcard {
+  height: 20em;
+  width: 20em;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 12px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 0.5px;
+}
+.carddtop {
+  display: flex;
+  padding-top: 10px;
+}
+.carddtop Button {
+  flex: 30%;
+  margin-right: 10px;
+}
+.deetails0 {
+  flex: 70%;
+  height: 2em;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 10px;
+  padding-left: 30px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.bikeeimg {
+  height: 60%;
+}
+.bikeeimg img {
+  height: 100%;
+}
+.productcard a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+.deetails1 {
+  display: block;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #727272;
+  flex: 80%;
+}
+.deetails1 div {
+  padding: 3px;
+}
+.deetails01 {
+  font-size: 22px;
+  color: black;
+}
+.deetails2 {
+  padding-top: 20px;
+  padding-right: 20px;
+  justify-content: center;
+  align-items: center;
+  flex: 20%;
+  display: flex;
+}
+.cardbody {
+  display: flex;
+}

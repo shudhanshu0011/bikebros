@@ -1,0 +1,128 @@
+.container3 {
+  height: 850px;
+  width: 100%;
+  margin-top: 550px;
+  background-color: white;
+  background-image: linear-gradient(#8467f3 0.1em, transparent 0.1em),
+    linear-gradient(90deg, #8467f3 0.1em, transparent 0.1em);
+  background-size: 5em 5em;
+  position: absolute;
+}
+.ranndom1 {
+  height: 100%;
+  width: 100%;
+  border: 2px solid white;
+  background: radial-gradient(
+    farthest-corner,
+    rgba(255, 255, 255, 0.377),
+    rgb(255, 255, 255)
+  );
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.information {
+  background-image: linear-gradient(
+    135deg,
+    #0e73cc,
+    #624bbb,
+    #f35815,
+    #fed54a 100%
+  );
+  height: 30em;
+  width: 60em;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.firstinformation {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondinformation {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inf {
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 100%;
+  width: 40vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.infimg {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.infimg img {
+  width: 3em;
+}
+.inftext1 {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.inftext2 {
+  color: white;
+  padding-top: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+@media (max-width: 750px) {
+  .container3 {
+    margin-top: 130vh;
+    height: 850px;
+    background: white;
+    background-image: linear-gradient(#8467f3 0.1em, transparent 0.1em),
+      linear-gradient(90deg, #8467f3 0.1em, transparent 0.1em);
+    background-size: 5em 5em;
+  }
+  .information {
+    height: 55vh;
+    width: 40vh;
+  }
+  .inf {
+    height: 30vh;
+    width: 10vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .infimg {
+    display: flex;
+    width: 90%;
+    height: 50%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .infimg img {
+    width: 10vh;
+  }
+  .inftext1 {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  .inftext2 {
+    color: white;
+    padding-top: 10px;
+    font-size: 9px;
+    text-align: center;
+  }
+}
